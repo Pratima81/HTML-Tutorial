@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', monospace;
+    box-sizing: border-box;
+}
+
+body{
+    background: #441d6c;
+}
+
+#modelbox{
+
+    /* aligning the content in the middle */
+
+    /* width: 90%;
+    max-width: 600px;
+    text-align: center;
+    color: #fff;
+    margin: 200px auto;
+    padding: 40px 0;
+    box-shadow: 0 10px 10px rgba(0,0,0,0.2);
+    background: #583976; */
+
+    /* or */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    max-width: 450px;
+    text-align: center;
+    padding: 80px 60px;
+    font-size: 18px;
+    font-weight: 500;
+    background: #fff;
+    border-radius: 8px;
+
+    display: none;
+}
+
+.cookies{
+    width: 150px;
+    margin-bottom: 15px;
+}
+
+#modelbox button{
+    background: #ff5945;
+    color: #fff;
+    padding: 15px 0;
+    border-radius: 4px;
+    font-size: 20px;
+    font-weight: 500;
+    width: 100%;
+    border: 0;
+    outline: 0;
+    margin-top: 50px;
+    cursor: pointer;
+    box-shadow:0 10px 15px rgba(0,0,0,0.2);
+    
+}
+
+#modelbox .close-icon{
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    cursor: pointer;
+}

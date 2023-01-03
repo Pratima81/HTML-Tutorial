@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="showModel()">
+    <div id="modelbox">
+        <!-- cookies image is downloaded from pixabay https://pixabay.com/ja/photos/%e3%82%af%e3%83%83%e3%82%ad%e3%83%bc-%e3%83%9a%e3%82%b9%e3%83%88%e3%83%aa%e3%83%bc-%e3%83%87%e3%82%b6%e3%83%bc%e3%83%88-435296/ -->
+        <img src="images/cookies.png" alt="" class="cookies">
+        
+        <p>We use cookies to optimize user experience and content.</p>
+        
+        <button type="button" onclick="closeModel()">Accept</button>
+        
+        <img src="images/close.png" alt="" class="close-icon" onclick="closeModel()">
+        <!-- close icon is downloaded from <a href="https://www.flaticon.com/free-icons/close" title="close icons">Close icons created by ariefstudio - Flaticon</a> -->
+    </div> 
+    
+    <script>
+        let modelbox=document.getElementById("modelbox");
+
+        function showModel(){
+            setTimeout(() => {
+                modelbox.style.display="block"
+            },2000)
+        }
+
+        function closeModel(){
+            modelbox.style.display="none";
+        }
+
+    </script>
+</body>
+</html>
