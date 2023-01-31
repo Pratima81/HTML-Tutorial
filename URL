@@ -1,0 +1,113 @@
+WORD PRESS FORM PLUGIN
+==============================
+
+https://ferret-plus.com/39660
+https://form.run/media/contents/marketing/wordpress-plugin/
+
+
+
+=======================
+
+
+When creating a corporate website or service site, it is essential to set up a form for inquiries 
+and other purposes.
+
+If you have created a homepage with WordPress, you can easily set up an inquiry form by using the 
+plugin "MW WP Form".
+
+What is MW WP FORM?
+-------------------------
+MW WP Form is a WordPress plugin that allows you to create contact forms and application forms on sites.
+You don't need web expertise and you can set up a form by simply copying and pasting a single line of code 
+called a shortcode.
+
+It is one of the few plug-ins that can install a confirmation screen, and it also has functions such as 
+saving inquiry data, CSV output, data graphing, and validation check. These various settings can be 
+completed on one screen, making it an attractive plug-in with a high degree of flexibility and freedom.
+
+Features of MW WP Form
+------------------------
+
+In this article, we will explain the functions of "MW WP Form", how to create a form, and the flow 
+until the form is submitted. 
+
+How to use MW WP Form
+=========================
+The features of MW WP Form that most other plugins do not have are as follows.
+
+Confirmation screen
+
+The MW WP Form makes it easy to set up a confirmation screen. A confirmation screen 
+is a screen that allows users to review what they have entered in a form before submitting it. 
+There are not many plugins that can install a confirmation screen.
+
+MW WP Form can create the same URL or individual URL. In addition to installing
+ input screens→ confirmation screens→ completion screens, it is also possible to 
+ transition between input screens → completion screens. Another advantage is that you can set the class name, 
+ so you can hide specific items on the confirmation screen, such as re-entering your email address.
+ 
+ If you want to easily implement a form with a confirmation screen, we recommend MW WP Form.
+ 
+ 
+ Data Analytics Capabilities
+ ------------------------
+ MW WP Form has a data storage feature that allows you to graph aggregated input data.
+You can usually check the contents of the form by e-mail to the administrator.
+ However, it is difficult to organize and manage them manually.
+
+In MW WP Form, everything submitted from the form is stored in the database. If you have 
+multiple forms in your site, it is convenient to store them separately for each form.
+
+When you access the database from the management screen, you can choose between two types of 
+graph displays: pie charts and bar charts. Since individual URLs can be assigned to the confirmation 
+screen and completion screen, analysis using analysis tools is also possible.
+
+
+CSV output
+--------------
+With MW WP Form, you can download the accumulateddata in CS V format.
+
+By analyzing the downloaded data, you can use it to attract customers from the home page and manage customers.
+
+In addition, by having the CSV function, the downloaded data can be linked with various tools such as MA tools and SFA.
+
+
+How to create a form in MW WP Form
+====================================
+If you are trying to create a form using MW WP Form, we will show you how to install the form.
+
+1. Installation and activation
+--------------------------------
+Figure
+
+Select "Add New" under "Plugins" in the WordPress admin and enter "MW WP Form" in the search window in the upper right corner. 
+When the plugin is displayed, select "Install Now" and click "Enable".
+
+Fig 
+
+If it is added to the "Plugins" > "Installed Plugins" list, it is installed.
+
+2. Form creation
+------------------
+Since it is difficult to enter the code directly into the body, this time I will explain how to use the "Form Tag Generator".
+
+A form tag generator is a system that allows anyone to easily create full-fledged forms without 
+requiring specialized knowledge or skills.
+
+Click MW WP Form > Create New in the menu.
+
+Fig
+
+Title input
+Enter any title in the "Add Title" input field.
+
+Item installation / name input
+Here, we will explain using a common inquiry form as an example. The structure of the items is as follows.
+
+Your name
+E-mail address
+telephone number
+inquirydetail
+
+
+
